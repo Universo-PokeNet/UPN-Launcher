@@ -276,7 +276,7 @@ releaseNotesFailed = "No se pudieron cargar las notas de la versión."
 [js.settings.updates]
 newReleaseTitle = "Nuevo lanzamiento disponible"
 newPreReleaseTitle = "Nuevo prelanzamiento disponible"
-downloadingButton = "Descargando.."
+downloadingButton = "Descargando..."
 downloadButton = 'Descargando de GitHub<span style="font-size: 10px;color: gray;text-shadow: none !important;">Cierre el iniciador y ejecute el dmg para actualizar.</span>'
 latestVersionTitle = "Estás ejecutando la última versión"
 checkForUpdatesButton = "Buscar actualizaciones"
