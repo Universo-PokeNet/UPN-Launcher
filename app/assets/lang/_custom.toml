@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Universo PokeNet Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/Mundo-PixelNet/PokeNetLauncher"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/zJFJe7m8B7"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/Mundo-PixelNet/PokeNetLauncher"
+supportLink = "https://github.com/Mundo-PixelNet/PokeNetLauncher/issues"
+
+[ejs.welcome]
+welcomeHeader = "BIENVENIDO A UNIVERSO POKENET"
+welcomeDescription = "Esperamos que disfrutes de la experiencia Pokémon en Minecraft en Universo PokeNet. Recuerda seleccionar Cobblemon o Pixelmon antes de iniciar el juego y así entrar al servidor correcto. Ante cualquier duda, entra en nuestro Discord y te ayudaremos. ¡Disfruta!"
+welcomeDescCTA = ""
