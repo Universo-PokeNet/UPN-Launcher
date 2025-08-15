@@ -4,15 +4,15 @@
 title = "Universo PokeNet Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/Mundo-PixelNet/PokeNetLauncher"
+mediaGitHubURL = "https://github.com/Universo-PokeNet/UPN-Launcher"
 mediaXURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zJFJe7m8B7"
+mediaDiscordURL = "https://discord.com/invite/p4wryDdutf"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/Mundo-PixelNet/PokeNetLauncher"
-supportLink = "https://github.com/Mundo-PixelNet/PokeNetLauncher/issues"
+sourceGithubLink = "https://github.com/Universo-PokeNet/UPN-Launcher"
+supportLink = "https://github.com/Universo-PokeNet/UPN-Launcher/issues"
 
 [ejs.welcome]
 welcomeHeader = "BIENVENIDO A UNIVERSO POKENET"

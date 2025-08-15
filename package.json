@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "productName": "Universo PokeNet Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Mundo PixelNet",
+  "author": "Universo PokéNet",
   "license": "MIT",
-  "homepage": "https://github.com/Mundo-PixelNet/PokeNetLauncher",
+  "homepage": "https://github.com/Universo-PokeNet/UPN-Launcher",
   "bugs": {
-    "url": "https://github.com/Mundo-PixelNet/PokeNetLauncher/issues"
+    "url": "https://github.com/Universo-PokeNet/UPN-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/Universo-PokeNet/UPN-Launcher.git"
   }
 }

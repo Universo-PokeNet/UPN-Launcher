@@ -1,0 +1,193 @@
+#loginOfflineForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#loginOfflineForm input[type="text"],
+#loginOfflineForm input[type="password"] {
+    width: 330px;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #e79b4d;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+#loginOfflineForm input[type="text"]:focus,
+#loginOfflineForm input[type="password"]:focus {
+    border-color: #a55200;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+#loginOfflineForm input[type="text"]::placeholder,
+#loginOfflineForm input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-style: normal;
+}
+
+#loginOfflineForm button {
+    margin-top: 20px;
+}
+
+#loginOfflineCancelContainer {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#loginOfflineContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: filter 0.25s ease;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+#loginOfflineCancelButton {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+#loginOfflineCancelButton:hover #loginCancelIcon,
+#loginOfflineCancelButton:hover #loginCancelText,
+#loginOfflineCancelButton:focus #loginCancelIcon,
+#loginOfflineCancelButton:focus #loginCancelText {
+    text-shadow: 0px 0px 20px white;
+}
+#loginOfflineCancelButton:hover #loginCancelIcon,
+#loginOfflineCancelButton:focus #loginCancelIcon {
+    box-shadow: 0px 0px 20px white;
+}
+#loginOfflineCancelButton:active #loginCancelIcon,
+#loginOfflineCancelButton:active #loginCancelText {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 0.75);
+}
+#loginOfflineCancelButton:active #loginCancelIcon {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.75);
+}
+#loginOfflineCancelButton:disabled {
+    pointer-events: none;
+}
+#loginOfflineCancelButton:disabled #loginCancelIcon,
+#loginOfflineCancelButton:disabled #loginCancelText {
+    color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 0.75);
+}
+
+#loginOfflineForm a {
+    font-size: 20px;
+    color: #848484;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+#loginOfflineForm a:hover,
+#loginOfflineForm a:focus {
+    color: #a2a2a2;
+    outline: none;
+}
+#loginOfflineForm a:active {
+    color: #8b8b8b;
+}
+
+#loginOfflineButton {
+    background: #a06000;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid #773e00;
+    border-radius: 8px;
+    padding: 15px 30px;
+    margin: 10px 0px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5), 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#loginOfflineButton:disabled {
+    color: rgba(255, 255, 255, 0.75);
+    background: rgba(160, 64, 0, 0.5);
+    border-color: rgba(119, 60, 0, 0.5);
+    pointer-events: none;
+}
+
+#loginOfflineButton[loading] {
+    color: #fff;
+    background: #0033a0;
+}
+
+#loginOfflineButton:hover,
+#loginOfflineButton:focus {
+    background: #a56600;
+    border-color: #a05300;
+    text-shadow: 0px 0px 5px #000;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.7), 0px 6px 12px rgba(0, 0, 0, 0.7);
+    outline: none;
+}
+
+#loginOfflineButton:active {
+    background: #774300;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.7), 0px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+
+#loginSVG {
+    -webkit-transform: translate3d(0, 0, 0);
+    overflow: visible;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    transition: 0.25s ease;
+    width: 20px;
+    height: 20px;
+}
+#loginOfflineButton:hover #loginSVG,
+#loginOfflineButton:focus #loginSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px #000);
+}
+#loginOfflineButton:active #loginSVG .arrowLine {
+    stroke: #999;
+}
+#loginOfflineButton:active #loginSVG {
+    -webkit-filter: drop-shadow(0px 0px 2px #999);
+}
+#loginOfflineButton:disabled #loginSVG .arrowLine {
+    stroke: rgba(255, 255, 255, 0.75); 
+}
+
+#loginOfflineButtonContent {
+    display: flex;
+    align-items: center;
+}
+
+#loginOfflineButton .circle-loader,
+#loginOfflineButton[loading] #loginSVG {
+    display: none;
+}
+#loginOfflineButton[loading] .circle-loader,
+#loginOfflineButton #loginSVG {
+    display: initial;
+}
