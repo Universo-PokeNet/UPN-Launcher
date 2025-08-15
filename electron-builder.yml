@@ -1,5 +1,5 @@
 appId: 'pokenetlauncher'
-productName: 'UPN-Launcher'
+productName: 'Universo PokeNet Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2023-2025 Universo PokeNet'
