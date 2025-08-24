@@ -1,8 +1,8 @@
 {
   "name": "pokenetlauncher",
-  "version": "0.0.4-beta",
+  "version": "1.0.0",
   "productName": "Universo PokeNet Launcher",
-  "description": "Modded Minecraft Launcher",
+  "description": "Launcher oficial de Universo PokéNet (basado en HeliosLauncher)",
   "author": "Universo PokéNet",
   "license": "MIT",
   "homepage": "https://github.com/Universo-PokeNet/UPN-Launcher",
