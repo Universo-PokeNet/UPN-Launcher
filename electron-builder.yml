@@ -2,7 +2,7 @@ appId: 'pokenetlauncher'
 productName: 'Universo PokeNet Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2023-2025 Universo PokeNet'
+copyright: 'Copyright © 2023-2026 Universo PokeNet'
 
 asar: true
 compression: 'maximum'
